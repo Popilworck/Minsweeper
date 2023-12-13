@@ -110,7 +110,7 @@ for  j in range(20+20,800+20,50):#rows
         exec(f'{h}.configure(command=sub{a}_{b})')
         b+=1
     a+=1
-show()
+#show()
 window.bind('<Escape>',lambda a:window.destroy())
 window.attributes('-fullscreen',True)
 window.mainloop()
